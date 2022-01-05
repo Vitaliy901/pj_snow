@@ -2,6 +2,16 @@ html    {
     font-size: 20px;
 }
 
+body {
+    background-image: url(../img/ChristmasTree.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+   } 
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
