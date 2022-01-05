@@ -56,7 +56,7 @@ body {
         background-size: cover;
     }
 }
-@media (max-width: 340px) {
+@media (max-width: 500px) {
     body {
         background-position: 50% 100%;
     }
