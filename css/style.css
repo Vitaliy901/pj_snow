@@ -51,10 +51,16 @@ body {
 } 
 
 /* ============================================== */
-@media (min-width: 200px) and (max-width: 600px) {
-    /* Свойства применяются в пределах от меньшего к большему. */
+@media (max-height: 450px) {
+    body {
+        background-size: cover;
+    }
 }
-
+@media (max-width: 340px) {
+    body {
+        background-position: 50% 100%;
+    }
+}
 @media (orientation: portrait) {
     /* Если высота экрана больше ширины, свойство применяется */
 }
