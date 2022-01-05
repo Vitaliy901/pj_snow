@@ -1,7 +1,10 @@
 html    {
     font-size: 20px;
+    color: rgb(133, 189, 69);
 }
-
+h1 {
+    font-size: 2rem;
+}
 body {
     background-image: url(../img/ChristmasTree.jpeg);
     background-repeat: no-repeat;
