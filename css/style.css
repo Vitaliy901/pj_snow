@@ -22,15 +22,13 @@ body {
 .wrapper {
     background-image: url('../img/icon/snowflakes_1.png'),
     url('../img/icon/snowflakes_2.png'), url('../img/icon/snowflakes_3.png');
-    background-size: 1%;
-    background-repeat: no-repeat;
     height: 100%;
     animation: snow 20s linear infinite;
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
-
 }
+
 @keyframes snow {
     0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
     100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
