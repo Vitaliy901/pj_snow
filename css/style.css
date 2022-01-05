@@ -1,10 +1,12 @@
 html    {
     font-size: 20px;
     color: rgb(133, 189, 69);
+    height: 100%; 
 }
 h1 {
     font-size: 2rem;
 }
+
 body {
     background-image: url(../img/ChristmasTree.jpeg);
     background-repeat: no-repeat;
@@ -14,7 +16,38 @@ body {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-   } 
+    height: 100%; 
+}
+
+.wrapper {
+    background-image: url('../img/icon/snowflakes_1.png'),
+    url('../img/icon/snowflakes_2.png'), url('../img/icon/snowflakes_3.png');
+    background-size: 1%;
+    background-repeat: no-repeat;
+    height: 100%;
+    animation: snow 20s linear infinite;
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+} 
+
 /* ============================================== */
 @media (min-width: 200px) and (max-width: 600px) {
     /* Свойства применяются в пределах от меньшего к большему. */
